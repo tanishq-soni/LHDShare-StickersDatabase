@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+*{
+    font-family: 'JetBrains Mono', monospace;
+}
+body{
+    background-color: black;
+}
+#imgstickers{
+    margin:10px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+#head{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}

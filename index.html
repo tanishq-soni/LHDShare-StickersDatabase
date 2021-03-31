@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Stickers Database</title>
+</head>
+<body>
+<table>
+  <th>
+    <h1 id="head">Stickers</h1>
+  </th>
+  <td>
+    <tr id="view-div"></tr>
+  </td>
+</table>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCE_6lh_TlrR_SIFGWBfOPALijaZW2TEBw",
+    authDomain: "sticker-database.firebaseapp.com",
+    projectId: "sticker-database",
+    storageBucket: "sticker-database.appspot.com",
+    messagingSenderId: "632397387420",
+    appId: "1:632397387420:web:673c83b40e933717e23f59"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="script.js"></script>
+</body>
+</html>
+
